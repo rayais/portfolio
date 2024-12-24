@@ -1,0 +1,54 @@
+
+.hero{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    height: 80vh;
+    width: 100%;
+    border-bottom: 2px solid black;
+    
+}
+.img{
+    background-image: url(../../prof-pic.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 33%;
+    margin: 0;
+}
+.tr{
+    width: 34%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tit{
+    text-align: center;
+    font-size: xx-large;
+    font-family: Josefin Sans;
+}
+.imgs{
+    display: flex;
+    gap: 20px;
+    margin-top: 50px;
+}
+.imgs img{
+    width: 30px;
+}
+.pre{
+    padding: 30px;
+    background-color: #909090;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+.pre h4{
+    margin: 5px;
+}
+.tr p{
+width: 70%;  
+color: #232323;
+
+}

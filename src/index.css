@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  background-color: #d8d8d8;
+  color: black;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+.josefin-sans-Jose {
+  font-family: "Josefin Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
