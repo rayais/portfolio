@@ -26,3 +26,13 @@
 .softtit{
     text-align: center;
 }
+@media (max-width: 680px) {
+    .skilllist{
+        flex-direction: column;
+        align-items: start;
+    }
+    .softskill{
+        padding: 0;
+        margin: 0;
+    }
+}

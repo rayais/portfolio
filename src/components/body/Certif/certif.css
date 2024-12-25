@@ -39,4 +39,28 @@
     border: #000000 solid 1px ;
     border-radius: 10px;
 }
- 
+@media (max-width: 760px) {
+    #lin{
+        margin-left: 30%;
+    }
+    .cerimg{
+    width: 80%;
+}
+.tdimg{
+    width: 20%;
+}
+}
+@media (max-width: 460px) {
+        .cerimg{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+.tdimg{
+    visibility: hidden;
+    width: 0%;
+}
+#lin{
+    margin-left: 5%;
+}
+}

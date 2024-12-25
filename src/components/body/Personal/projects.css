@@ -12,7 +12,7 @@
 .card{
     padding-top: 50px;
 width: 40%;
-height: 500px;
+height: auto;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -40,4 +40,13 @@ color: #232323;
     font-size: medium;
     border: #000000 solid 1px ;
     border-radius: 10px;
+}
+@media (max-width: 580px) {
+    .cards{
+    flex-direction: column;
+    .card{
+        width: 80%;
+        margin-bottom: 10vh;
+    }
+}
 }
