@@ -2,6 +2,7 @@ import React from 'react'
 import Certif from './Certif/Certif'
 import Projects from './Personal/Projects'
 import Skills from './skills/Skills'
+import Education from './education/Education'
 
 function Body() {
   const data1= ["Patience","communication","Problem solving","Adaptability","Accountability"]
@@ -12,6 +13,7 @@ function Body() {
         <Skills titre="languages" data={data2}/>
         <Projects/>
         <Skills titre="Soft Skills" data={data1}/>
+        <Education/>
     </div>
   )
 }
