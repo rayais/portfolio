@@ -76,7 +76,7 @@ function Certif() {
                     </li>
                     <li>
                       {ce.date}
-                      <a href={ce.link} id="lin">
+                      <a href={ce.link} id="lin" target="_blank">
                         {ce.link ? "Show" : "in progress"}
                       </a>
                     </li>
