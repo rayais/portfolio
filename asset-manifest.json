@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.b40c6c4d.css",
+    "main.js": "/portfolio/static/js/main.9994d017.js",
+    "static/media/prof-pic.png": "/portfolio/static/media/prof-pic.d0b335979e515c666de4.png",
+    "static/media/board.jpg": "/portfolio/static/media/board.5d78c2a2bf8d11868c5c.jpg",
+    "static/media/Octicons-mark-github.svg.png": "/portfolio/static/media/Octicons-mark-github.svg.3830f960b2219263fd80.png",
+    "index.html": "/portfolio/index.html",
+    "main.b40c6c4d.css.map": "/portfolio/static/css/main.b40c6c4d.css.map",
+    "main.9994d017.js.map": "/portfolio/static/js/main.9994d017.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b40c6c4d.css",
+    "static/js/main.9994d017.js"
+  ]
+}
