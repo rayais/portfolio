@@ -1,54 +1,134 @@
+/* Base Styles */
+.hero {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  height: 80vh;
+  width: 100%;
+  border-bottom: 2px solid black;
+}
 
-.hero{
-    margin-top: 100px;
-    display: flex;
-    justify-content: space-between;
-    height: 80vh;
-    width: 100%;
-    border-bottom: 2px solid black;
-    
+.img {
+  background-image: url(../../prof-pic.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 33%;
+  margin: 0;
 }
-.img{
-    background-image: url(../../prof-pic.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 33%;
-    margin: 0;
+
+.tr {
+  width: 34%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.tr{
-    width: 34%;
-    display: flex;
+
+.tit {
+  text-align: center;
+  font-size: xx-large;
+  font-family: Josefin Sans;
+}
+
+.imgs {
+  display: flex;
+  gap: 20px;
+  margin-top: 50px;
+}
+
+.imgs img {
+  width: 30px;
+}
+
+.pre {
+  padding: 30px;
+  background-color: #909090;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+.pre h4 {
+  margin: 5px;
+}
+
+.tr p {
+  width: 70%;
+  color: #232323;
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+  .hero {
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-}
-.tit{
-    text-align: center;
-    font-size: xx-large;
-    font-family: Josefin Sans;
-}
-.imgs{
-    display: flex;
-    gap: 20px;
-    margin-top: 50px;
-}
-.imgs img{
-    width: 30px;
-}
-.pre{
-    padding: 30px;
-    background-color: #909090;
-    width: 30%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: start;
-}
-.pre h4{
-    margin: 5px;
-}
-.tr p{
-width: 70%;  
-color: #232323;
+    height: auto;
+  }
 
+  .img {
+    width: 80%;
+    height: 200px;
+  }
+
+  .tr,
+  .pre {
+    width: 90%;
+    text-align: center;
+    align-items: center;
+  }
+
+  .tr p {
+    width: 100%;
+  }
+
+  .imgs {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero {
+    margin-top: 50px;
+  }
+
+  .tit {
+    font-size: large;
+  }
+
+  .img {
+    height: 150px;
+  }
+
+  .pre h3,
+  .pre h4 {
+    font-size: 14px;
+  }
+
+  .imgs img {
+    width: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero {
+    margin-top: 20px;
+  }
+
+  .tit {
+    font-size: medium;
+  }
+
+  .img {
+    height: 100px;
+  }
+
+  .pre {
+    padding: 10px;
+  }
+
+  .imgs img {
+    width: 15px;
+  }
 }

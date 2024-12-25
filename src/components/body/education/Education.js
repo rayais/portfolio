@@ -28,7 +28,7 @@ function Education() {
         link: "",
       },
       {
-        org: "Higher Institute of Computer Science (Ariana,Tunisia)",
+        org: "Bachir Nabhani High School  (HamamLif,Tunisia)",
         year: "2010",
         title: "Computer Science baccalaureate",
         disc: "",
