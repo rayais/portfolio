@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.8f3472c9.css",
+    "main.css": "/portfolio/static/css/main.a972ea9e.css",
     "main.js": "/portfolio/static/js/main.e1ad60e3.js",
     "static/media/prof-pic.png": "/portfolio/static/media/prof-pic.d0b335979e515c666de4.png",
     "static/media/board.jpg": "/portfolio/static/media/board.5d78c2a2bf8d11868c5c.jpg",
@@ -11,11 +11,11 @@
     "static/media/Asurefundamentale.png": "/portfolio/static/media/Asurefundamentale.4e5b96710739ac682d3d.png",
     "static/media/Octicons-mark-github.svg.png": "/portfolio/static/media/Octicons-mark-github.svg.3830f960b2219263fd80.png",
     "index.html": "/portfolio/index.html",
-    "main.8f3472c9.css.map": "/portfolio/static/css/main.8f3472c9.css.map",
+    "main.a972ea9e.css.map": "/portfolio/static/css/main.a972ea9e.css.map",
     "main.e1ad60e3.js.map": "/portfolio/static/js/main.e1ad60e3.js.map"
   },
   "entrypoints": [
-    "static/css/main.8f3472c9.css",
+    "static/css/main.a972ea9e.css",
     "static/js/main.e1ad60e3.js"
   ]
 }
