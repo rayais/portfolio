@@ -14,6 +14,7 @@
 .tdimg{
     width: 40%;
     border-bottom: 1px solid black;
+    
 }
 .certext{
     width: 60%;
@@ -55,11 +56,13 @@
     display: block;
     margin: 0;
     padding: 0;
+    width:0%;
 }
 .tdimg{
-    visibility: hidden;
-    width: 0%;
+    display: none;
+   
 }
+
 #lin{
     margin-left: 5%;
 }
