@@ -14,7 +14,7 @@ function Projects() {
         "Backend: Developed with Express, incorporating robust CORS handling and essential security middleware." +
         "Hosting: Fully deployed on Render, ensuring seamless accessibility",
       pic: go,
-      link: "https://covoituragebend.onrender.com",
+      link: "https://covoituragetunisie.onrender.com/",
     },
     {
       titre: "Geoفين",
@@ -44,7 +44,7 @@ function Projects() {
                 <p>{ce.presentation}</p>
               </li>
               <li>
-                <a href={ce.link} id="li" target="_blank " rel="noreferrer">
+                <a href={ce.link} id="li" target="_blank " >
                   {ce.link ? "Show" : "in progress"}
                 </a>
               </li>
