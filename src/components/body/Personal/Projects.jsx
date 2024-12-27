@@ -30,7 +30,7 @@ function Projects() {
 
   return (
     <>
-      <h1 className="certit">Projects</h1>
+      <h1 className="certit" id="per">Projects</h1>
       <div className="cards">
         {pros.map((ce, i) => (
           <div key={i} className="card">

@@ -49,7 +49,7 @@ function Certif() {
     
   return (
     <>
-      <h1 className="certit">CERTIFICATES</h1>
+      <h1 className="certit" id='cer'>CERTIFICATES</h1>
       <div className="cers">
         <table>
           <tbody>

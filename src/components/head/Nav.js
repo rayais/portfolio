@@ -5,13 +5,13 @@ function Nav() {
     <div className='nav'>
         <ul className='ul'>
             <li>
-                <a href="http://" target="_blank" rel="noopener noreferrer">personal projects</a>
+                <a href="#per" >personal projects</a>
             </li>
             <li>
-            <a href="http://" target="_blank" rel="noopener noreferrer">CERTIFICATES</a>
+            <a href="#cer">CERTIFICATES</a>
             </li>
             <li>
-            <a href="http://" target="_blank" rel="noopener noreferrer">EDUCATION</a>
+            <a href="#edu">EDUCATION</a>
             </li>
         </ul>
     </div>

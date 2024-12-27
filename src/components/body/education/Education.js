@@ -38,7 +38,7 @@ function Education() {
     ];
   return (
     <div>
-      <h1 className="certit">Education</h1>
+      <h1 className="certit" id='edu'>Education</h1>
       {edus.map((e, i) => (
         <div key={i} className="crd">
           <h1 className="crdorg">{e.org}</h1>
