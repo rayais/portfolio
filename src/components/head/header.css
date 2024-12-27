@@ -7,7 +7,9 @@
   width: 100%;
   border-bottom: 2px solid black;
 }
-
+.wa{
+  width: 100px;
+}
 .img {
   background-image: url(../../prof-pic.png);
   background-size: cover;

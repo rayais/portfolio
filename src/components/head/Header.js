@@ -2,6 +2,7 @@ import React from "react";
 import Nav from "./Nav";
 import img1 from "../../asse/Octicons-mark-github.svg.png";
 import img2 from "../../asse/images (1).png";
+import wa from "../../asse/whatsapp.png"
 import "./header.css";
 function Header() {
   return (
@@ -22,16 +23,25 @@ function Header() {
         <div className="pre">
           <h3>Rayen Ben Mansour</h3>
           <h4>rayen.ben.mansour@gmail.com</h4>
-          <h4>+21623804911</h4>
+          <h4>
+            <a
+              href="https://wa.me/21623804911"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-green-500 hover:underline"
+            >
+              <img className="wa" src={wa} alt="whatsapp" />
+            </a>
+          </h4>
           <h4>Hammam-Lif Tunis</h4>
 
           {/*  */}
           <div className="imgs">
-            <a href="#">
-              <img src={img1} alt="logo" />
+            <a href="https://github.com/rayais">
+              <img src={img1} alt="githube" />
             </a>
             <a href="#">
-              <img src={img2} alt="logo" />
+              <img src={img2} alt="linkedin" />
             </a>
           </div>
         </div>
