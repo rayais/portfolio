@@ -10,16 +10,20 @@ function Header() {
       <Nav />
       <div className="hero">
         <div className="tr">
+          <div className="theimg">
+
+          </div>
           <h2 className="tit">JAVASCRIPT FULL STACK DEVELOPER</h2>
-          <p>
+          <p className="bio">
             I am a JavaScript Full-Stack Developer (MERN) with strong skills
             honed through a comprehensive JavaScript Bootcamp featuring multiple
             projects, including a major one. Currently, I’m a second-year
             Bachelor’s student in Computer System Development at ISET Kairouan,
-            studying online and on-site (C, Java, OracleDB, UML, PHP, React).
+            studying online and on-site (C, Java, OracleDB, PHP, React ...).
           </p>
         </div>
-        <div className="img"></div>
+        <div className="img">
+        </div>
         <div className="pre">
           <h3>Rayen Ben Mansour</h3>
           <h4>rayen.ben.mansour@gmail.com</h4>
