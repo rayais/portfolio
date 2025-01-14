@@ -5,10 +5,10 @@ import geo from "../../../asse/logo1.png"
 function Projects() {
   const pros = [
     {
-      titre: "Carpool web app",
+      titre: "ShareLift",
 
       presentation:
-        "LiftShare is a carpooling application built using the MERN stack (MongoDB, Express, React, Node.js) designed to connect drivers and passengers for shared rides. Key features include:" +
+        "ShareLift is a carpooling application built using the MERN stack (MongoDB, Express, React, Node.js) designed to connect drivers and passengers for shared rides. Key features include:" +
         "Geonames API Integration: Dynamically loads location names for enhanced user experience." +
         "Cloudinary Integration: Securely handles photo uploads for profile pictures and car images." +
         "Backend: Developed with Express, incorporating robust CORS handling and essential security middleware." +
@@ -30,26 +30,30 @@ function Projects() {
 
   return (
     <>
-      <h1 className="certit" id="per">Projects</h1>
+      <h1 className="certit" id="per">
+        Projects
+      </h1>
       <div className="cards">
         {pros.map((ce, i) => (
-          <div key={i} className="card">
-            <img className="cardimg" src={ce.pic} alt="img" />
-            <ul className="ulcard">
-              <li>
-                <h2>{ce.titre}</h2>
-              </li>
+          <a key={i} href={ce.link} className="card" target="_blank">
+            <div>
+              <img className="cardimg" src={ce.pic} alt="img" />
+              <ul className="ulcard">
+                <li>
+                  <h2>{ce.titre}</h2>
+                </li>
 
-              <li>
-                <p>{ce.presentation}</p>
-              </li>
-              <li>
-                <a href={ce.link} id="li" target="_blank " >
-                  {ce.link ? "Show" : "in progress"}
-                </a>
-              </li>
-            </ul>
-          </div>
+                <li>
+                  <p>{ce.presentation}</p>
+                </li>
+                <li>
+                  <a href={ce.link} id="li" target="_blank ">
+                    {ce.link ? "Show" : "in progress"}
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </a>
         ))}
       </div>
     </>

@@ -9,9 +9,9 @@ function Body() {
   const data2= ["Arabic: native","Frensh: good","English: good"]
   return (
     <div>
-        <Certif/>
-        <Skills titre="languages" data={data2}/>
         <Projects/>
+        <Skills titre="languages" data={data2}/>
+        <Certif/>
         <Skills titre="Soft Skills" data={data1}/>
         <Education/>
     </div>

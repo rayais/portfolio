@@ -51,7 +51,16 @@
   justify-content: center;
   align-items: start;
 }
-
+.oor{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: large;
+  
+}
+.strong{
+  font-size: x-large;
+  vertical-align: middle;
+}
 .pre h4 {
   margin: 5px;
 }
